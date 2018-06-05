@@ -73,7 +73,7 @@ let genome = ['A','T','C','G','A','T','T','A','C','A','G','T','A','C','A','G','A
 // Different Starting
 // Console logs the square from 100 to 110
 
-// Backwords
+// Backwards
 // Console log a countdown from 5 to 1 then a boom;
 
 // Skip Step
