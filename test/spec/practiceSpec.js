@@ -1,11 +1,11 @@
 describe('For Loops', function(){
 	describe('Apply Tax', ()=>{
-		it ('should double everyhting in the origional array', ()=>{
+		it ('should double everyhting in the original array', ()=>{
 			let a = [1,2,3,4,5];
 			applyTax(a);
 			expect(a).toEqual([2,4,6,8,10]);
 		})
-		it ('should double everyhting in the origional array', ()=>{
+		it ('should double everyhting in the original array', ()=>{
 			let a = [2,3,4,5,1];
 			applyTax(a);
 			expect(a).toEqual([4,6,8,10,2]);
@@ -13,7 +13,7 @@ describe('For Loops', function(){
 	})
 
 	describe('Find Evens', ()=>{
-		it ('shound not modify the origional array', ()=>{
+		it ('shound not modify the original array', ()=>{
 			let a = [1,2,3,4,5];
 			let b = findEvens(a);
 			expect(a).toEqual([1,2,3,4,5]);

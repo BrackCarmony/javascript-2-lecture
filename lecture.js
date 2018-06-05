@@ -20,19 +20,27 @@ let friends = ['Schwimmer', 'Rachael', 'Monica', 'Joey', 'Chandler', 'Feebee']
 // What is the main difference between slice and splice?
 
 // Question if we have 
-let a = [5,4,7,1,5]
+let a = [5, 4, 7, 1, 5]
 let b = a;
 b.push(15);
 
 // If I run the line below what do I see.
 // console.log(a);
 
-let c = [1,7,98,2,5,2];
+let c = [1, 7, 98, 2, 5, 2];
 let d = c.slice();
 d.push(15);
 
 // If I run the line below what do I see.
 // console.log(d);
+
+let myArry = [5,7,3,1,6];
+// let's grab the array from 7, 3, 1
+
+let bigArry = [5,6,8,3,4,6,7,1,3,7,4,2,7,5,3,7,5]
+// Lets split up bigArray into a left and right array
+// split around it's middle
+
 
 // Splice
 // Editing an array anywhere
