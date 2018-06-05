@@ -1,152 +1,63 @@
-/* 
-  Once you complete a problem, refresh ./SpecRunner.html in your browser and check to see if the problem's test(s) are passing.
-  Passed tests will be indicated by a green circle.
-  Failed tests will be indicated by a red X.
+let cartPrices = [4.34, 6.23, 1.25, 34.5, 2.34, 2.35, 3.56]
 
-  You can refresh the page at any time to re-run all the tests.
-*/
+function double(prices){
+  // Loop over an array and apply a 100% tax.  
+  // Modify the original array
+  // Taxes man... 
 
-////////// PROBLEM 1 //////////
+}
 
-/*
-  Create an object called me. 
-  Give it a key of name with the value being your name, and another key of age with the value being your age. 
-  Then alert your name using dot notation.
-*/
+let myPrices = [6, 2, 4, 7, 8, 2, 7, 5, 2, 8, 9, 5, 2];
+function  findEvens(arr){
+  // Make a new array of only evens 
+  
+}
 
-//Code here
+let alignments = ['CG', 'LE', 'NG', 'LG', 'CE', 'CN', 'NE', 'CE']
+function destroyEvil(arr){
+  // Remove from the existing array any strings that contain E
+  // tip consider what happens with 2 in a row
+  
+}
 
+let scores = [[4,6], [3,5], [3,7], [7,2], [6,3], [5,5], [8,3], [4,6], [2,6]];
+// let scores = [[4,6], [3,5], [3,7], [7,2], [6,3], [5,5], [8,3], [4,6], [2,6]];
+let expectOutput = {
+  wins:3,
+  loses:5,
+  ties:1
+}
 
-
-////////// PROBLEM 2 //////////
-
-/*
-  Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. 
-  Have the values to those keys be your favorite thing in that category.
-*/
-
-//Code here
-
-
-
-/*
-  After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
-*/
-
-//Code here
-
+function calculateWins(scores){
+  // given an array of arrays
+  // each sub array represents the scores of 2 teams
+  // make an obj that keeps track of the wins, loses, and ties from the first team's perspective.
+  // Return that object
 
 
-/*
-  Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
-*/
+}
 
-//Code here
+// Go back to lecture
 
+// Write a function. danceALot that will take in a dance
+// and the number of times to perform that dance.
 
-
-////////// PROBLEM 3 //////////
-
-/* 
-  Create an empty Object called backPack. 
-  Now, create a variable called 'item' and set it equal to the string 'firstPocket'. 
-  Using bracket notation, add a 'firstPocket' key (or property) to backPack, using 'item'.
-  Set the value of that key to 'chapstick'.
-  Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack. 
-*/
-
-//Code here
+function danceAlot(dance, times){
+  
+}
 
 
+// Make a buildArray function that will take in a callback,
+// and return an array where each element has gone through 
+// the callback function with their index
+// Example buildArray(x => x*x , 4) 
+// [0,1,4,9]
+function buildArray(callback, n){
+  
+}
 
-/*
-  After you do the above, alert your entire backPack object.
-*/
-
-//Code here
-
-
-
-/*
-You probably noticed that it just alerted [object Object].
-Alerting to see the data in your Object doesn't work so well.
-Instead, console.log your whole backPack object and then check out the console. 
-*/
-
-//Code here
-
-
-
-////////// PROBLEM 4 //////////
-
-// Do not edit the code below.
-var user2 = {
-  name: 'Ty',
-  age: 24,
-  pwHash: 'U+Ldlngx2BYQk',
-  email: 'ty33@gmail.com',
-  birthday: '05/02/1990',
-  username: 'tylermcginnis33'
-};
-// Do not edit the code above.
-
-/* 
-  Let's say I, the user, decided to change my name and email address to the following:
-  name -> 'Tyler S. McGinnis' and email -> 'tyler.mcginnis@devmounta.in'. 
-  Make that change without modifying the original object code above.
-*/
-
-//Code Here
-
-
-
-////////// EXTRA PRACTICE PROBLEMS BELOW //////////
-
-////////// PROBLEM 5 //////////
-
-/*
-  Create an empty object called methodCollection.
-*/
-
-//Code Here
-
-
-
-/*
-  Now add two methods (functions that are properties on objects) to your methodCollection object. 
-  One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console. 
-*/
-
-//Code Here
-
-
-
-/*
-  Now call your alertHello and logHello methods.
-*/
-
-//Code Here
-
-
-
-////////// PROBLEM 6 //////////
-
-/* 
-  Create a function called makePerson which takes in name, birthday, ssn as its parameters. 
-  Return a new object with all of the information that you passed in.
-*/
-
-//Code Here
-
-
-
-////////// PROBLEM 7 //////////
-
-/*
-  Create a function called makeCard which takes in cardNumber, expirationDate, and securityCode to make a Credit Card object.
-  Return that object so that whenever you invoke makeCard, you get a brand new credit card.
-*/
-
-//Code Here
-
-
+function letFateDecide(option1, option2){
+  // write a function that will randomly select 1 of the 2 options being passed in.
+  // Both should occur at least once given 100 tries. (so probably stick to nothing less than 2% chance of happening)
+  
+}
